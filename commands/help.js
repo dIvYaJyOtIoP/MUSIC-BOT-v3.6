@@ -34,7 +34,7 @@ module.exports = {
     try {
       const musicCommandsEmbed = new EmbedBuilder()
         .setColor(client.config.embedColor)
-        .setTitle('🎸 **Music Commands**')
+        .setTitle('🎸 **Music**')
         .addFields(
           { name: '🎹 Play', value: 'Stream a song from a given link or text from sources' },
           { name: '⏹️ Stop', value: 'Makes the bot stop playing music and leave the voice' },
@@ -52,7 +52,7 @@ module.exports = {
 
       const basicCommandsEmbed = new EmbedBuilder()
         .setColor(client.config.embedColor)
-        .setTitle('✨ **Basic Commands**')
+        .setTitle('✨ **General**')
         .addFields(
           { name: '🏓 Ping', value: "Check the bot's latency" },
           { name: '🗑️ Clear', value: 'Clear the song queue of this server' },
@@ -61,7 +61,6 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
-       .setImage('https://cdn.discordapp.com/attachments/1150827819547504741/1168917372267151370/standard.gif?ex=65538222&is=65410d22&hm=b4994392f44679da41fc9304eb69deaa3769e136057556deec0db69ae8d33a97&')
       const button1 = new ButtonBuilder()
         .setLabel('Invite Me')
         .setURL('https://discord.com/oauth2/authorize?client_id=1236202256097869824&permissions=0&scope=bot')
