@@ -80,7 +80,7 @@ module.exports = {
         .setAuthor({
         name: 'Added Album Songs to Queue',
         iconURL: 'https://cdn.discordapp.com/attachments/1156866389819281418/1157218651179597884/1213-verified.gif', 
-        url: 'https://discord.gg/FUEHs7RCqz'
+        url: 'https://discord.gg/Tsuzz2zHXe'
     })
         .setColor('#14bdff')
         .setFooter({ text: 'Use /queue for more Information' });
